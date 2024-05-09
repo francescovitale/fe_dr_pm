@@ -1,6 +1,6 @@
 # Requirements and instructions to run the fe_dr_pm technique
 
-Before delving into the details of the project files, please consider that this project has been executed on a Windows 10 machine with Python 3.11.5. There are a few libraries that have been used within Python modules. Among these, there are:
+Before delving into the details of the project files, please consider that this project has been executed on a Windows 10 machine with Python 3.8.1. There are a few libraries that have been used within Python modules. Among these, there are:
 
 - tensorflow 2.8.0
 - scipy 1.8.0
