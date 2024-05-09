@@ -1,4 +1,19 @@
-:: %1: cc technique, %2: n_clusters, %3: window_length
+:: Input arguments
+:: %1: conformance_checking_technique, %2: n_clusters, %3: window_length
+
+:: Options
+:: debug_mode=[0,1]
+:: validation_split_percentage=<float>
+:: normal_test_split_percentage=<float>
+:: ae_validation_split_percentage=<float>
+:: normalization_technique=[zscore,min-max]
+:: clustering_technique=[agglomerative,kmeans]
+:: n_clusters=<integer>
+:: window_length=<integer>
+:: thresholds_computation_technique=[average,max]
+:: conformance_checking_technique=[token_based,alignment_based]
+:: process_discovery_technique=[inductive_miner]
+:: noise_threshold=<float>
 
 set debug_mode=1
 set validation_split_percentage=0.65
